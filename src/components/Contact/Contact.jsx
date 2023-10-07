@@ -42,19 +42,19 @@ const modeData = [
   {
     primary: "Chat",
     secondary: "123 456 789",
-    tertiary: "Message now",
+    tertiary: "Chat now",
     icon: <HiChatBubbleLeftEllipsis size={25} />,
   },
   {
     primary: "Video Call",
     secondary: "123 456 789",
-    tertiary: "Message now",
+    tertiary: "Call now",
     icon: <HiVideoCamera size={25} />,
   },
   {
     primary: "Email",
     secondary: "123 456 789",
-    tertiary: "Message now",
+    tertiary: "Email now",
     icon: <MdOutlineMailOutline size={25} />,
   },
 ];
