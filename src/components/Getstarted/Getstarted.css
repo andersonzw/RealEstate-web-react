@@ -1,0 +1,19 @@
+.g-container {
+    background: var(--blue);
+    gap: 0.5rem;
+    border-radius: 10px;
+}
+
+.g-container > *  {
+    color: white
+}
+
+.primaryText {
+font-weight: 600;
+}
+
+.button {
+    margin-top: 0.5rem;
+    background: var(--blue);
+    outline: white 1px solid;
+}

@@ -10,8 +10,8 @@ const Header = () => {
         <div className="flexCenter h-menu">
           <a href="">Residencies</a>
           <a href="">Contact Us</a>
-          <a href="">Get Started</a>
-          <button>
+          <a href="">About us</a>
+          <button className="button">
             <a href="">Contact</a>
           </button>
         </div>

@@ -7,6 +7,7 @@
   --blue: #4066ff;
   --lightBlue: #eeeeff;
   --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+  --border: 0.8px solid rgba(128, 128, 128, 0.143);
 }
 
 * {
@@ -82,7 +83,7 @@ a {
   font-weight: 600;
 }
 
-button {
+.button {
   font-weight: 500;
   padding: 0.6rem 1.4rem;
   color: white;
@@ -93,7 +94,7 @@ button {
   transition: all 150ms ease-in;
 }
 
-button:hover {
+.button:hover {
   cursor: pointer;
   transform: scale(1.1);
 }

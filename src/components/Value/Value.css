@@ -24,7 +24,7 @@
 
 .accordionItem {
   background: white;
-  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border: var(--border);
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;
