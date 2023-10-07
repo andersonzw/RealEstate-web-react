@@ -1,6 +1,7 @@
 .h-wrapper {
   /* background: var(--black); */
   color: white;
+  position: relative;
 }
 
 .h-container {
@@ -10,10 +11,79 @@
   color: var(--secondary);
 }
 
-.h-menu {
+.h-menu{
   gap: 2rem;
 }
 
+
+
 .h-menu > *:hover {
   cursor: pointer;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  display: none;
+}
+@media (min-width: 480px){
+  .drop-down{
+    display: none;
+
+  }
+}
+@media (max-width: 480px) {
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  .drop-down {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 4rem;
+    right: 3rem;
+    width: 10rem;
+    height: 15rem;
+    background: white;
+    color: var(--black);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.23);
+    z-index: 100;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+
+  }
+  .drop-down  >* {
+    flex: 1;
+    vertical-align: center;
+
+  }
+
+  .drop-down  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: var(--border);
+  }
+
+
+
+  .drop-down  > .button {
+    padding: 0;
+    background: white;
+    color: var(--blue);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1px 0 0 0 ;
+    transform: none;
+  }
+
+  .h-menu {
+    display: none;
+  }
 }

@@ -10,6 +10,8 @@ import Getstarted from "./components/Getstarted/Getstarted";
 
 
 function App() {
+
+
   return (
     <div className="App">
       <div>
