@@ -6,7 +6,7 @@ import OutsideClickHandler from "react-outside-click-handler";
 
 const ContactBtn = () => {
   const [width, setWidth] = useState(window.innerWidth);
-  const breakpoint = 480;
+  const breakpoint = 515;
   useEffect(() => {
     const handleResizeWindow = () => setWidth(window.innerWidth);
     // subscribe to window resize event "onComponentDidMount"

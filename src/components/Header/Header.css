@@ -27,13 +27,13 @@
   right: 20px;
   display: none;
 }
-@media (min-width: 480px){
+@media (min-width: 515px){
   .drop-down{
     display: none;
 
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 515px) {
 
   .menu-icon {
     display: block;
