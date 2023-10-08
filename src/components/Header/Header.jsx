@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { BiMenu } from "react-icons/bi";
 import { useState, useEffect } from "react";
+import OutsideClickHandler from "react-outside-click-handler";
 
 const ContactBtn = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -33,15 +34,19 @@ const Header = () => {
       <div className="h-container flexCenter paddings innerWidth">
         <img src="./logo.png" alt="logo" width={100} />
         {/* !!!!!!!!!!!! */}
-        {menuOpened && (
+        <OutsideClickHandler
+        onOutsideClick={()=>{
+          setMenuOpened(false)
+        }} >
+          {menuOpened && (
             <div className="flexCenter drop-down ">
               <a href="">Residencies</a>
               <a href="">Contact Us</a>
               <a href="">About us</a>
               <ContactBtn />
             </div>
-          
-        )}
+          )}
+        </OutsideClickHandler>
         <div className="flexCenter h-menu ">
           <a href="">Residencies</a>
           <a href="">Contact Us</a>

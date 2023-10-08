@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import CountUp from "react-countup";
+import {motion} from 'framer-motion'
 
 function HiLocationMarker(props) {
   return (
@@ -31,11 +32,18 @@ const Hero = () => {
         <div className="flexColStart hero-left">
           <div className="hero-title">
             <div className="orange-circle" />
-            <h1>
+            <motion.h1
+            initial ={{y:"3rem",opacitiy:0}}
+            animate ={{y:0,opacity:1}}
+            transition={{
+              duration:3,
+              type:"spring"
+            }}
+            >
               Discover <br />
               Most Suitable
               <br /> Property
-            </h1>
+            </motion.h1>
           </div>
           <div className="secondaryText flexColStart hero-des">
             <span>Find a variety of properties that suit you very easilty</span>
@@ -74,9 +82,16 @@ const Hero = () => {
 
         {/* right side */}
         <div className="flexCenter hero-right">
-          <div className="image-container">
+          <motion.div
+           className="image-container"
+           initial ={{x:'6rem',opacity:0}}
+           animate = {{x:0,opacity:1}}
+           transition={{
+            duration:3,
+            type:"spring"
+           }}>
             <img src="./hero-image.png" alt="" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

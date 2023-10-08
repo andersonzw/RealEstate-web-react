@@ -29,9 +29,7 @@ const Value = () => {
           <span className="orangeText">Our Value</span>
           <span className="primaryText">Value We Give to You</span>
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you.{" "}
-            <br />
-            We believe a good blace to live can make your life better
+            We always ready to help by providing the best services for you.{" "}
           </span>
 
           <Accordion
@@ -65,7 +63,7 @@ const Value = () => {
                     </AccordionItemButton>
                   </AccordionItemHeading>
 
-                  <AccordionItemPanel>
+                  <AccordionItemPanel className="AccordionItemPanel">
                     <p className="secondaryText">{item.detail}</p>
                   </AccordionItemPanel>
                 </AccordionItem>

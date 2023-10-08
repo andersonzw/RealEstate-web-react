@@ -1,5 +1,5 @@
 .v-container .image-container {
-  border: 8px solid rgb(232, 232, 232);
+  border: var(--window-border);
 }
 
 .v-container > div {
@@ -49,9 +49,29 @@
 
 .accordionButton .primaryText {
   font-size: 1.2rem;
+
 }
 
 .accordionItem.expanded {
   box-shadow: var(--shadow);
-  border-radius: 8pxpx;
+  border-radius: 8px;
+}
+.AccordionItemPanel {
+  padding: 0 2rem 2rem 2rem;
+  text-align: center;
+}
+@media (max-width:480px){
+  .v-right{
+    text-align: center;
+  }
+  .accordionButton > .primaryText {
+    font-size: 1rem;
+  }
+  .secondaryText {
+    font-size: 0.8rem;
+  }
+  .AccordionItemPanel{
+    padding: 0 1.5rem 1rem 1.5rem;
+
+  }
 }
