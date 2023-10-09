@@ -5,6 +5,9 @@
 .c-container > div {
   flex: 1;
 }
+.flexColCenter.mode {
+  flex-grow: 1;
+}
 
 .c-left {
   gap: 0.5rem;
@@ -26,14 +29,15 @@
 .contactModes {
   margin-top: 2rem;
   gap: 1rem;
+  width: 100%;
 }
 .contactModes > .row {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .flexColStart {
     align-items: normal;
   }
@@ -55,7 +59,7 @@
   }
 }
 .mode {
-  width: 16rem;
+  width: 100%;
   padding: 1rem;
   border: var(--border);
   border-radius: 5px;

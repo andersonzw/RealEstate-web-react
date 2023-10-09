@@ -22,7 +22,7 @@ const Contact = () => {
         {/* right */}
         <div className=" c-right">
           <div className="image-container">
-            <img src="./public/contact.jpg" alt="" />
+            <img src="./public/contact.jpeg" alt="" />
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@ const ContactCells = () => {
     <div className="flexColStart contactModes">
       {/* first row */}
       <div className=" row">
-        {modeData.map((mode, i) => {
+        {modeData.slice(0,2).map((mode, i) => {
           console.log(mode.primary);
           return (
             <div className="flexColCenter mode" key={i}>
@@ -78,6 +78,28 @@ const ContactCells = () => {
           );
         })}
       </div>
+    {/* 2nd row */}
+    <div className=" row">
+        {modeData.slice(2).map((mode, i) => {
+          console.log(mode.primary);
+          return (
+            <div className="flexColCenter mode" key={i}>
+              <div className="flexStart top">
+                <div className="flexCenter icon">{mode.icon}</div>
+                <div className="flexColStart detail">
+                  <span className="primaryText">{mode.primary}</span>
+                  <span className="secondaryText">{mode.secondary}</span>
+                </div>
+              </div>
+              <div className="flexCenter button">{mode.tertiary}</div>
+            </div>
+          );
+        })}
+      </div>
+
+
+
+
     </div>
   );
 };
