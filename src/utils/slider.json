@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Melbourne",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "detail": "503 Rae Street, City of Yarra",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "Melbourne",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "detail": "216 Southern Road, City of Banyule",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Geelong",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "detail": "7 Clarke Street, City of Whittlesea",
     "image": "./r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Melbourne",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "detail": "Emmanuel College (St Pauls Campus), 423 Blackshaws Road, City of Hobsons Bay",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "Ballarat",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "detail": "12 Church Street XVII No.215, City of Melbourne",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Melbourne",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "detail": "174 Fairbairn Road, City of Brimbank",
     "image": "./r3.png"
   }
 ]

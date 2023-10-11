@@ -22,7 +22,7 @@ const Contact = () => {
         {/* right */}
         <div className=" c-right">
           <div className="image-container">
-            <img src="./public/contact.jpeg" alt="" />
+            <img src="./contact.jpeg" alt="" />
           </div>
         </div>
       </div>
